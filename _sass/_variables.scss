@@ -27,11 +27,13 @@ $yellow:  #f39c12 !default;
 $green:   #18bc9c !default;
 $teal:    #20c997 !default;
 $cyan:    #3498db !default;
+$honeydew: #f0fff0 !default;
+$darksalmon: #E9967A !default;
 
-$primary:       $blue !default;
+$primary:       $white !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
+$success:       $blue !default;
+$info:          $darksalmon !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
@@ -60,7 +62,7 @@ $table-accent-bg:             $gray-200 !default;
 // Dropdowns
 
 $dropdown-link-color:               $gray-700 !default;
-$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-color:         $black !default;
 $dropdown-link-hover-bg:            $primary !default;
 
 // Navs

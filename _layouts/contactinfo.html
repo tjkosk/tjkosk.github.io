@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <div class="jumbotron jumbotron-fluid bg-transparent" style="background-size: cover;">
+      <div class="container">
+          <h1 class="display-4">{{ page.title | escape }}</h1>
+        {{content }}
+         <p class="lead" > 
+          <button type="button" class="btn btn-link bg-transparent"><a class="text-dark" href="https://www.linkedin.com/in/tomijkoskinen/"><span class="fa fa-linkedin"></span> </a></button>
+          <button class="btn btn-outline-light text-dark bg-transparent" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          <span class="fa fa-envelope"></span>
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body bg-transparent border-0">
+            <p class="lead" > hello at tomikoskinen dot fi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
+

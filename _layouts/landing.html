@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <div class="jumbotron jumbotron-fluid bg-transparent" style="background-size: cover;">
+      <div class="container">
+          <h1 class="display-4">{{ page.title | escape }}</h1>
+        {{content }}
+        <a class="btn btn-outline-dark" href="contact/" role="button">Contact</a>
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
+
