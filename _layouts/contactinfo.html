@@ -5,6 +5,12 @@
 
   <body>
 
+    <div class = "body-background">
+      <video autoplay loop id="video-background" muted>
+      <source src="../assets/img/ice_flow_background_1.mp4" type="video/mp4">
+      </video>
+    </div>
+
     {%- include header.html -%}
 
     <div class="jumbotron jumbotron-fluid bg-transparent" style="background-size: cover;">
@@ -13,10 +19,12 @@
         {{content }}
          <p class="lead" > 
           <button type="button" class="btn btn-link bg-transparent"><a class="text-dark" href="https://www.linkedin.com/in/tomijkoskinen/"><span class="fa fa-linkedin"></span> </a></button>
+
           <button type="button" class="btn btn-link text-dark bg-transparent"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           <span class="fa fa-envelope"></span>
           </button>
         </p>
+        
         <div class="collapse" id="collapseExample">
           <div class="card card-body bg-transparent border-0">
             <p class="lead" > hello at tomikoskinen dot fi</p>
